@@ -1,0 +1,15 @@
+*{
+  border: solid 1px red;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  padding: 50px;
+  background-color: salmon;
+}
+
+/* End of boilerplate css*/
