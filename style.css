@@ -1,3 +1,5 @@
+/* ==== Boilerplate ==== */
+
 *{
   border: solid 1px red;
 }
@@ -31,6 +33,10 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--font-size-m);
 }
 
 img{
@@ -38,4 +44,16 @@ img{
   background-color: salmon;
 }
 
-/* End of boilerplate css*/
+a{
+  color: var(--color-text-highlight);
+  text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+}
+
+ul{
+  list-style: none;
+}
+
+/* ==== Features ==== */
