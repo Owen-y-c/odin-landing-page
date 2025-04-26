@@ -2,6 +2,32 @@
   border: solid 1px red;
 }
 
+:root {
+  /*colors*/
+  --color-primary: #252A34;
+  --color-secondary: #3A4150;
+  --color-highlight: #08D9D6;
+  --color-container: #EAEAEA;
+  --color-text: #EAEAEA;
+  --color-text-highlight: #FF2E63;
+
+  /*font size*/
+  --font-size-s: 0.75rem;  /* 12px */
+  --font-size-m: 1rem;   /* 16px */
+  --font-size-l: 1.25rem;  /* 20px */
+
+  /*borders*/
+  --border-width-s: 1px;
+  --border-width-m: 2px;
+  --border-width-l: 4px;
+  --border-radius-s: 4px;  
+  --border-radius-m: 8px;  
+
+  /*shadows*/
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 body{
   margin: 0;
   padding: 0;
