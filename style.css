@@ -27,7 +27,8 @@
 
   /*shadows*/
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
-  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.2);
+  --shadow-st: 0 8px 10px rgba(0, 0, 0, 0.3);
 
   /*line height*/
   --line-height-base: 1.5;
@@ -120,6 +121,7 @@ header a{
   border-radius: var(--border-radius-s);
   margin-top: 12px;
   max-width: max-content;
+  box-shadow: var(--shadow-md);
 }
 header a:hover{
   padding: 10px;
@@ -131,4 +133,5 @@ header div{
 }
 header img{
   max-width: 500px;
+  box-shadow: var(--shadow-st);
 }
