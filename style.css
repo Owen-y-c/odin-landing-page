@@ -1,7 +1,7 @@
 /* ==== Boilerplate ==== */
 
 *{
-  border: solid 1px red;
+  /* border: solid 1px red; */
 }
 
 :root {
@@ -40,16 +40,21 @@ body{
 }
 
 img{
-  padding: 50px;
-  background-color: salmon;
+  width: 100%;
+  object-fit: cover;
+  height: auto;
 }
 
 a{
   color: var(--color-text-highlight);
   text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
   }
   a:hover{
     text-decoration: underline;
+    padding: 5px;
+    background-color: var(--color-secondary);
 }
 
 ul{
@@ -57,3 +62,32 @@ ul{
 }
 
 /* ==== Features ==== */
+
+nav{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: auto;
+  flex-wrap: wrap;
+  }
+  nav img{
+    max-width: 50px;
+    padding: 0;
+    margin-right: 10px;
+  }
+  nav .title-card{
+    display: flex;
+  }
+  nav ul{
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  nav ul li{
+    margin-right: 10px;
+    }
+    nav ul li:last-child{
+      margin: 0;
+}
