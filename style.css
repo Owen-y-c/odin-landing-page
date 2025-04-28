@@ -111,37 +111,37 @@ header{
   box-sizing: content-box;
   justify-content: space-between;
   padding: 15px;
-}
-header h1, p{
-  margin: 0;
-}
-header a{
-  padding: 10px;
-  color: var(--color-primary);
-  background-color: var(--color-highlight);
-  border-radius: var(--border-radius-s);
-  margin-top: 12px;
-  max-width: max-content;
-  box-shadow: var(--shadow-md);
-  transition: all 0.15s ease;
-}
-header a:hover{
-  padding: 10px;
-}
-header div{
-  display: flex;
-  flex-flow: column;
-  /* max-width: 45%; */
-}
-header figure{
-  max-width: 50%;
-  display: block;
-  margin: 0;
-}
-header img{
-  box-shadow: var(--shadow-md);
-  transition: all 0.3s ease;
-}
-header img:hover{
-  box-shadow: var(--shadow-st);
+  }
+  header h1, p{
+    margin: 0;
+  }
+  header a{
+    padding: 10px;
+    color: var(--color-primary);
+    background-color: var(--color-highlight);
+    border-radius: var(--border-radius-s);
+    margin-top: 12px;
+    max-width: max-content;
+    box-shadow: var(--shadow-md);
+    transition: all 0.15s ease;
+    }
+    header a:hover{
+      padding: 10px;
+  }
+  header div{
+    display: flex;
+    flex-flow: column;
+    /* max-width: 45%; */
+  }
+  header figure{
+    max-width: 50%;
+    display: block;
+    margin: 0;
+  }
+  header img{
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s ease;
+    }
+    header img:hover{
+      box-shadow: var(--shadow-st);
 }
