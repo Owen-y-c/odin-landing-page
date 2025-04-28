@@ -27,7 +27,7 @@
 
   /*shadows*/
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
-  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
   --shadow-st: 0 8px 10px rgba(0, 0, 0, 0.3);
 
   /*line height*/
@@ -57,6 +57,7 @@ a{
   text-decoration: none;
   font-weight: bold;
   padding: 5px;
+  transition: all 0.35s ease;
   }
   a:hover{
     text-decoration: underline;
@@ -79,7 +80,7 @@ nav{
   max-width: 1500px;
   margin: auto;
   flex-wrap: wrap;
-  box-sizing: border-box;
+  box-sizing: content-box;
   }
   nav img{
     width: 54px;
@@ -107,8 +108,8 @@ header{
   margin: auto;
   line-height: var(--line-height-heading);
   align-items: center;
-  box-sizing: border-box;
-  justify-content: center;
+  box-sizing: content-box;
+  justify-content: space-between;
   padding: 15px;
 }
 header h1, p{
@@ -122,6 +123,7 @@ header a{
   margin-top: 12px;
   max-width: max-content;
   box-shadow: var(--shadow-md);
+  transition: all 0.15s ease;
 }
 header a:hover{
   padding: 10px;
@@ -129,9 +131,17 @@ header a:hover{
 header div{
   display: flex;
   flex-flow: column;
-  max-width: 45%;
+  /* max-width: 45%; */
+}
+header figure{
+  max-width: 50%;
+  display: block;
+  margin: 0;
 }
 header img{
-  max-width: 500px;
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s ease;
+}
+header img:hover{
   box-shadow: var(--shadow-st);
 }
