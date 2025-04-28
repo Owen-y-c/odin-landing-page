@@ -1,7 +1,7 @@
 /* ==== Boilerplate ==== */
 
 *{
-  /* border: solid 1px red; */
+  border: solid 1px red;
 }
 
 :root {
@@ -57,7 +57,7 @@ a{
   text-decoration: none;
   font-weight: bold;
   padding: 5px;
-  transition: all 0.35s ease;
+  transition: all 0.1s ease;
   }
   a:hover{
     text-decoration: underline;
