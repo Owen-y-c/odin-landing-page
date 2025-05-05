@@ -111,6 +111,7 @@ header{
   box-sizing: content-box;
   justify-content: space-between;
   padding: 15px;
+  margin-bottom: 50px;
   }
   header h1, p{
     margin: 0;
@@ -139,9 +140,39 @@ header{
     margin: 0;
   }
   header img{
+    max-width: 500px;
     box-shadow: var(--shadow-md);
     transition: all 0.3s ease;
     }
     header img:hover{
       box-shadow: var(--shadow-st);
 }
+
+main{
+  display: flex;
+  max-width: 1500px;
+  margin: auto;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+  }
+  main h2{
+    align-self: center;
+  }
+  main section{
+    display: flex;
+  }
+  main section a{
+    max-width: 250px;
+    margin-right: 15px;
+    background-color: var(--color-container);
+    box-shadow: var(--shadow-md);
+  }
+  main section a:last-child{
+    margin-right: 0;
+  }
+  main section img{
+    height: 85%;
+
+  }
