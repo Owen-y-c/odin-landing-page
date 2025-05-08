@@ -17,6 +17,7 @@
   --font-size-s: 0.75rem;  /* 12px */
   --font-size-m: 1rem;   /* 16px */
   --font-size-l: 1.25rem;  /* 20px */
+  --font-size-xl: 2.5rem;
 
   /*borders*/
   --border-width-s: 1px;
@@ -150,12 +151,14 @@ header{
 
 main{
   display: flex;
-  max-width: 1500px;
   margin: auto;
   flex-wrap: wrap;
   box-sizing: content-box;
   justify-content: space-evenly;
-  margin-bottom: 25px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: var(--color-text);
+  color: var(--color-primary);
   }
   main h2{
     align-self: center;
@@ -174,5 +177,24 @@ main{
   }
   main section img{
     height: 85%;
+}
 
-  }
+aside{
+  max-width: 1250px;
+  margin: auto;
+  box-sizing: content-box;
+  background-color: var(--color-highlight);
+  color: var(--color-text);
+  font-size: var(--font-size-l);
+  border-radius: var(--border-radius-m);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+aside q {
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+}
+aside p{
+  font-weight: bold;
+}
