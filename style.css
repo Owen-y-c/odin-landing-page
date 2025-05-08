@@ -1,8 +1,8 @@
 /* ==== Boilerplate ==== */
 
-*{
+/* *{
   border: solid 1px red;
-}
+} */
 
 :root {
   /*colors*/
@@ -111,8 +111,8 @@ header{
   align-items: center;
   box-sizing: content-box;
   justify-content: space-between;
-  padding: 15px;
   margin-bottom: 50px;
+  padding: 25px;
   }
   header h1, p{
     margin: 0;
@@ -150,15 +150,19 @@ header{
 }
 
 main{
-  display: flex;
-  margin: auto;
-  flex-wrap: wrap;
-  box-sizing: content-box;
-  justify-content: space-evenly;
   padding-top: 75px;
   padding-bottom: 75px;
   background-color: var(--color-text);
   color: var(--color-primary);
+  }
+  main div{
+    max-width: 1500px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    justify-content: space-between;
+    padding: 25px;
   }
   main h2{
     align-self: center;
@@ -171,6 +175,9 @@ main{
     margin-right: 15px;
     background-color: var(--color-container);
     box-shadow: var(--shadow-md);
+    border: solid var(--border-width-m) var(--color-highlight);
+    border-radius: var(--border-radius-m);
+    text-align: center;
   }
   main section a:last-child{
     margin-right: 0;
@@ -180,13 +187,11 @@ main{
 }
 
 aside{
-  max-width: 1250px;
   margin: auto;
   box-sizing: content-box;
   background-color: var(--color-highlight);
   color: var(--color-text);
   font-size: var(--font-size-l);
-  border-radius: var(--border-radius-m);
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
